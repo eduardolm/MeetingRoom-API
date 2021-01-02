@@ -1,0 +1,81 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/frontend/client-room/dist
+/frontend/client-room/tmp
+/frontend/client-room/out-tsc
+# Only exists if Bazel was run
+/frontend/client-room/bazel-out
+
+# dependencies
+/frontend/client-room/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/frontend/client-room/.idea
+/frontend/client-room/.project
+/frontend/client-room/.classpath
+/frontend/client-room/.c9/
+/frontend/client-room/*.launch
+/frontend/client-room/.settings/
+/frontend/client-room/*.sublime-workspace
+
+# IDE - VSCode
+/frontend/client-room/.vscode/*
+/frontend/client-room/!.vscode/settings.json
+/frontend/client-room/!.vscode/tasks.json
+/frontend/client-room/!.vscode/launch.json
+/frontend/client-room/!.vscode/extensions.json
+/frontend/client-room/.history/*
+
+# misc
+/frontend/client-room/.sass-cache
+/frontend/client-room/connect.lock
+/frontend/client-room/coverage
+/frontend/client-room/libpeerconnection.log
+/frontend/client-room/npm-debug.log
+/frontend/client-room/yarn-error.log
+/frontend/client-room/testem.log
+/frontend/client-room/typings
+
+# System Files
+/frontend/client-room/.DS_Store
+/frontend/client-room/Thumbs.db
+
+/backend/HELP.md
+/backend/target/
+!/backend/.mvn/wrapper/maven-wrapper.jar
+!/backend/**/src/main/**/target/
+!/backend/**/src/test/**/target/
+
+### STS ###
+/backend/.apt_generated
+/backend/.classpath
+/backend/.factorypath
+/backend/.project
+/backend/.settings
+/backend/.springBeans
+/backend/.sts4-cache
+
+### IntelliJ IDEA ###
+/backend/.idea
+/backend/*.iws
+/backend/*.iml
+/backend/*.ipr
+
+### NetBeans ###
+/backend/nbproject/private/
+/backend/nbbuild/
+/backend/dist/
+/backend/nbdist/
+/backend/.nb-gradle/
+/backend/build/
+!/backend/**/src/main/**/build/
+!/backend/**/src/test/**/build/
+
+### VS Code ###
+/backend/.vscode/
+
