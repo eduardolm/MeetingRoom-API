@@ -2,7 +2,7 @@
 Sample Meeting Room schedule management built with Java and Angular
 
 ## Goals
-The main goals of this project were to practice backend and frontend delevopment and integration.
+The main goals of this project were to practice backend and frontend development and integration.
 
 The backend was developed in Java with Spring Boot.
 
@@ -18,7 +18,7 @@ The frontend was developed with Angular.
 
 ## Testing
 
-Ir order to test this application, it's recommended to hava an IDE installed on the machine.
+Ir order to test this application, it's recommended to have an IDE installed on the machine.
 
 Clone the repository.
 
@@ -28,7 +28,7 @@ Run the frontend on port 4200. To start the frontend development server, just ru
 
 `ng serve`
 
-The application uses H2 InMemory database, so everytime the backend is restarted, all the rooms are lost.
+The application uses H2 In Memory database, so every time the backend is restarted, all the rooms are lost.
 
 
 
